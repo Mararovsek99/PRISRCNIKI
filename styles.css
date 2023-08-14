@@ -56,3 +56,20 @@ h2{
     padding: 5px;
     font-weight: 100;
 }
+button{
+    height: 60px;
+    width: 300px;
+    background-color: #2d7be7;
+    color: #e5e7eb;
+    font-weight: 550;
+    border-radius: 10px;
+    border-color: #2d7be7;
+    margin-top: 20px;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover{
+    color: #2d7be7;
+    background-color: #e5e7eb;
+    border-color: #ff0000;
+}
