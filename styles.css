@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    /*border: 1px solid red;*/
 }
 
 .header{
@@ -11,7 +10,7 @@
 }
 .hero{
     background-color: #1f2937;
-    padding: 10px 0px 40px 0px;
+    padding: 10px 0px 15px 0px;
 }
 .logo img{
     height: 50px;
@@ -108,10 +107,11 @@ button:hover{
     padding: 5px 5%;
     text-align: center;
     font-weight: 100;
-    font-size: medium;
+    font-size: 30px;
 }
 .dogodek h2{
     color: #1f2937;
+    font-size: 30px;
 }
 .grey-area{
     background-color: #e5e7eb;
@@ -134,6 +134,44 @@ button:hover{
     font-weight: 700;
     font-size: 30px;
 }
+.prijava{
+    background-color: #3b82f6;
+    margin: 100px 16% 40px 16%;;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.prijava .button-two button{
+    border: 2px solid #e5e7eb;
+    margin: 0px;
+
+}
+.prijava .button-two{
+    display: flex;
+    align-items: center;
+}
+.besedilo-dve{
+    color: #e5e7eb;
+    font-weight: 400;
+}
+.besedilo-dve p{
+    margin: 5px 0px;
+}
+.copyright p{
+    color: #e9ebf0;
+}
+.copyright{
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*................................telefon.................................*/
 @media screen and (max-width: 600px)
  {
     .logo img{
@@ -185,5 +223,14 @@ button:hover{
         .besedilo p,
         .avtor{
             font-size: 20px;  
+        }
+        .prijava{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .prijava .button-two{
+            margin-top: 10px;
         }
  }
