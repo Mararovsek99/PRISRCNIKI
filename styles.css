@@ -58,8 +58,7 @@ h2{
     font-weight: 100;
 }
 button{
-    height: 60px;
-    width: 300px;
+    padding: 15px 40px;
     background-color: #2d7be7;
     color: #e5e7eb;
     font-weight: 550;
@@ -153,9 +152,13 @@ button:hover{
             margin: 20px 10%;
         }
         .dogodek{
-            margin: 20px 0px;
+            margin: 40px 0px;
+            border-bottom: 2px solid #1f293733;
         }
         .dogodek h5{
             width: 60%;
+        }
+        .content{
+            text-align: center;
         }
  }
