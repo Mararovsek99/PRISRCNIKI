@@ -114,3 +114,48 @@ button:hover{
 .dogodek h2{
     color: #1f2937;
 }
+@media screen and (max-width: 600px)
+ {
+    .logo img{
+        margin-bottom: 15px;
+    }
+    .dogodki-items{
+        display: block;
+        justify-content: center;
+    }   
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 15%;
+        }
+        .second-header{
+            display: block;
+        }
+        .second-header .content{
+            width: 100%;
+            padding: 10px;
+        }
+        .placeholder img{
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+        .white-page .dogodki-naslov h1{
+            font-size: 30px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        .white-page .dogodki-naslov{
+            width: 80%;
+            text-align: center;
+            margin: 20px 10%;
+        }
+        .dogodek{
+            margin: 20px 0px;
+        }
+        .dogodek h5{
+            width: 60%;
+        }
+ }
