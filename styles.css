@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 .header{
@@ -33,6 +33,7 @@ h2{
 }
 .second-header{
     margin: 20px 15%;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,4 +73,44 @@ button:hover{
     color: #2d7be7;
     background-color: #e5e7eb;
     border-color: #ff0000;
+}
+.white-page{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    
+}
+.dogodki-items{
+    display: flex;
+    justify-content: center;
+}
+.white-page .dogodki-naslov h1{
+    color: #1f2937;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dogodek{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dogodki-items img{
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+    border: 5px solid #2d7ff1;
+}
+.dogodek h5{
+    padding: 5px 5%;
+    text-align: center;
+    font-weight: 100;
+    font-size: medium;
+}
+.dogodek h2{
+    color: #1f2937;
 }
